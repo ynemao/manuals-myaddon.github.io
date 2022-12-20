@@ -56,19 +56,23 @@ html {
 	.stepcount {
 		width:70px;
 		height:70px;
+		max-width:70px;
+		max-height:70px;
 		background-color: #00B2A9;
 		color: #ffffff;
 		font-size: 40px;
 		text-align:center;
 		z-index:200;
 		margin:25px;
-		border-radius: 50px;
-		display: table-cell; 
+		border-radius: 100px;
+		display: table; 
 		vertical-align: middle;
+		line-height: 70px;
+		padding-top: 5px;
 	}
-	.stepinside {
-		display: table;
-		margin: 5% 0 0 5%;
+	.stepcount span {
+		display: table-cell;
+		
 	}
 
 	figure {
