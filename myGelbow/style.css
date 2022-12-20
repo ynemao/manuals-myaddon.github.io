@@ -17,6 +17,17 @@ html {
 	scroll-behavior: smooth;
 }
 
+@media screen and (max-width: 677px) {
+	.logo {
+		position: fixed;
+		z-index: 100;
+		width: 50vw;
+		margin: 0 auto auto 50%;
+		background-color: #ffffff;
+		padding: 40px 30% 25px 4%;
+	}
+}
+
 @media screen and (min-width: 678px) {
 	body>article {
 		display: flex;
